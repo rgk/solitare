@@ -1,0 +1,18 @@
+{
+  "name": "solitare",
+  "version": "1.0.0",
+  "description": "solitare",
+  "main": "index.vue",
+  "browser": "src/solitare.vue",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rgk/solitare.git"
+  },
+  "author": "rgk",
+  "homepage": "https://github.com/rgk/solitare",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "vue": "^3.2.45"
+  }
+}

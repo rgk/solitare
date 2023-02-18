@@ -9,6 +9,9 @@ const size = 52;
 <template>
   <slot/>
   <div style="background-color: green; width: 100%;">
+    <Deck>
+    <Pile v-for"i of 4">
+    <Stack v-for"i of 7">
   </div>
 </template>
 

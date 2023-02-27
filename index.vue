@@ -4,6 +4,12 @@ import { ref, onMounted } from 'vue';
 const cards = [ "A","2","3","4","5","6","7","8","9","10","J","Q","K" ];
 const rank = [ "♣", "♦", "♥", "♠" ];
 const size = 52;
+
+const score = ref(0);
+
+function reset(startWith = 0) {
+  score.value = startWith;
+}
 </script>
 
 <template>

@@ -7,6 +7,12 @@ const size = 52;
 
 const score = ref(0);
 
+function deal(deck, table) {
+}
+
+function move(source, destination) {
+}
+
 function reset(startWith = 0) {
   score.value = startWith;
 }

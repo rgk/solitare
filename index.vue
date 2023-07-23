@@ -7,10 +7,18 @@ const size = 52;
 
 const score = ref(0);
 
+const piles = [ [], [], [], [] ];
+
 function deal(deck, table) {
 }
 
 function move(source, destination) {
+}
+
+function shuffle(deck) {
+}
+
+function validate(source, destination) {
 }
 
 function reset(startWith = 0) {
